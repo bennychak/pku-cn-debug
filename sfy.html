@@ -6,12 +6,12 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
 <title>北京大学</title>
-<link href="css/banner.css" type="text/css" rel="stylesheet" />
 <link href="css/index.css" type="text/css" rel="stylesheet" />
-<link href="css/animation.css" type="text/css" rel="stylesheet" />
-<script src="js/index.js"type="text/javascript"></script>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script src="js/index.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 <script src="js/html5.js"  type="text/javascript"></script>
+
 <![endif]-->
 </head>
 
@@ -30,7 +30,7 @@
             <section class="topRight">
                 <span><a href="#">中文</a> | <a href="#">English</a></span>
                 <form name="dataForm" class="search" action="/cms/search/searchResults.jsp" target="_blank"
-                      method="post" accept-charset="utf-8" onSubmit="document.charset='utf-8';">
+                      method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
                     <input name="siteID" value="$curChannel.site.ID" type="hidden" />
                     <input class="notxt" value="输入关键字" name="query" type="text" id="keywords"
                            onFocus="if(value==defaultValue){value='';}" onBlur="if(!value){value=defaultValue;}"
@@ -47,13 +47,13 @@
                 <ul id="nav">
                     <li><a href="index.html">首页</a> </li>
                     <li><span><a href="list2.html">北大</a> </span></li>
-                    <li><span><a href="javascript:void(0);">新闻</a> </span> </li>
-                    <li><span><a href="javascript:void(0);">教学</a> </span> </li>
+                    <li><span><a href="#">新闻</a> </span> </li>
+                    <li><span><a href="#">教学</a> </span> </li>
                     <li><a href="#">院系</a> </li>
-                    <li><span><a href="javascript:void(0);">科研</a> </span> </li>
-                    <li><span><a href="javascript:void(0);">招生</a> </span> </li>
-                    <li><span><a href="javascript:void(0);">交流</a>  </span></li>
-                    <li><span><a href="javascript:void(0);">资源</a>  </span></li>
+                    <li><span><a href="#">科研</a> </span> </li>
+                    <li><span><a href="#">招生</a> </span> </li>
+                    <li><span><a href="#">交流</a>  </span></li>
+                    <li><span><a href="#">资源</a>  </span></li>
                     <li><a href="#">医学部</a> </li>
                 </ul>
             </nav>
@@ -301,269 +301,169 @@
     </section>
 </header>
 <article class="content">
-    <!--修改banner开始-->
-    <div class = 'fluidHeight'>
-      <div class = 'sliderContainer'>
-        <div class = 'iosSlider'>
-          <div class = 'slider'>
-            <div class = 'item item1'>
-              <div class = 'inner'>
-                <div class = 'selectorShadow'></div>
-                <div class = 'text1'><span>博雅文化沙龙之“克里米亚大变局”成功举办</span></div>
-              </div>
+    <section class="main1_bg">
+        <section class="con_main1">
+            <div class="thrm">
+                您现在所在的位置：<a href="#"> 首页</a> | 在校生
             </div>
-            <div class = 'item item2'>
-              <div class = 'inner'>
-                <div class = 'selectorShadow'></div>
-                <div class = 'text1'><span>北大学子毕业去向大揭秘</span></div>
-              </div>
-            </div>
-            <div class = 'item item3'>
-              <div class = 'inner'>
-                <div class = 'selectorShadow'></div>
-                <div class = 'text1'><span>修学储能 砥砺前行——记分子医学研究所2012级硕士生林渊</span></div>
-              </div>
-            </div>
-            <div class = 'item item4'>
-              <div class = 'inner'>
-                <div class = 'selectorShadow'></div>
-                <div class = 'text1'><span>燕园里的学生</span></div>
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class = 'slideSelectors'>
-          <div class = 'item selected'></div>
-          <div class = 'item'></div>
-          <div class = 'item'></div>
-          <div class = 'item'></div>
-        </div>
-        <div class = 'scrollbarContainer'></div>
-      </div>
-    </div>
-    <!--修改banner结束-->
-
-    <!--<section class="banner slide_container ">
-        <ul class="rslides" id="slider">
-            <li>
-                <a href="#"><img src="images/img_01.jpg" alt=""></a>
-                <p class="caption"><a href="#">博雅文化沙龙之“克里米亚大变局”成功举办</a> </p>
-            </li>
-            <li>
-                <a href="#"><img src="images/img_02.jpg" alt=""></a>
-                <p class="caption"><a href="#">北大学子毕业去向大揭秘</a></p>
-            </li>
-            <li>
-                <a href="#"><img src="images/img_03.jpg" alt=""></a>
-                <p class="caption"><a href="#">修学储能 砥砺前行——记分子医学研究所2012级硕士生林渊</a></p>
-            </li>
-            <li>
-                <a href="#"><img src="images/img_04.jpg" alt=""></a>
-                <p class="caption"><a href="#">燕园里的学生</a></p>
-            </li>
-        </ul>
-    </section>-->
-    <section class="con_wap">
-        <section class="new">
-            <h2><a href="#">新闻</a></h2>
-            <section class="newL">
-                <a href="#"><img src="images/pic_01.jpg" /></a>
-                <h3><a href="#">创新人才培养国际论坛暨北京大学“燕京学堂”启动仪式隆重举行</a> </h3>
-                <p>5月5日，创新人才培养国际论坛暨北京大学“燕京学堂”（Yenching Academy）启动仪式在北</p>
-            </section>
-            <section class="newL last">
-                <a href="#"><img src="images/pic_02.jpg" /></a>
-                <h3><a href="#">2014年世界体育社会学大会暨中国体育社会科学年会在北大举行</a> </h3>
-                <p>7月10日，以“体育社会学与社会变革中的挑战”为主题的2014年世界体育社会学大会暨中国体</p>
-            </section>
-            <ul class="newR">
-                <li><a href="#">人民日报专访北大校长王恩哥：一流大学，需要一流的担当</a> </li>
-                <li><a href="#">北京大学第41期干部研讨班赴焦裕禄干部学院 开展国情国策教育活动</a> </li>
-                <li><a href="#">Nature Geoscience杂志报道北大在对流层OH自由基化学方面的最新研究进展</a> </li>
-                <li class="last"><a href="#">进入新闻网</a> </li>
-            </ul>
-        </section>
-        <section class="conL">
-            <section class="jxky">
-                <h2><a href="#">教学科研</a> </h2>
-                <dl>
-                    <dt><img src="images/pic_03.jpg" /> </dt>
-                    <dd>
-                        <h3><a href="#">方精云院士团队在PNAS上撰文，提出气候变化促进森林生长的直接证据</a></h3>
-                        <p>方精云团队的研究成果《环境变化促进森林生长的证据》，在线发表在PNAS杂志上。</p>
-                    </dd>
-                </dl>
-            </section>
-            <section class="mtbd clear">
-                <h2><a href="#">媒体北大</a> </h2>
-                <ul>
-                    <li><span>【人民日报】</span><a href="#">人民日报专访北大校长王恩哥：一流大学，需要一流的担当</a> </li>
-                    <li><span>【新闻联播】</span><a href="#">以“北京：科技攻关缓解看病难”为题报道北京大学人民医院共同体同体</a> </li>
-                </ul>
-            </section>
-            <section class="tzgg clear">
-                <h2><a href="#">通知公告</a> </h2>
-                <ul>
-                    <li><span><i>06-05</i>  .  2014</span><a href="#">第七届中国青年会计学者学术研讨会暨会计与公司财务全国研究生暑期学校</a> </li>
-                    <li><span><i>05-30</i>  .  2014</span><a href="#">北京大学‘大学堂’顶尖学者讲学计划暨北京大学百年物理讲坛第十一讲”领票通知 </a> </li>
-                </ul>
-            </section>
-        </section>
-        <section class="conR" id="conR">
-            <dl class="first">
-                <dt>
-                    <a href="#"><img src="images/rw_icon.jpg" /><span>人物风采</span></a>
-                </dt>
-                <dd>
-                    <a href="#" style=" display:block; width:100%; height:100%;background:url(images/rw_img.jpg) no-repeat center;background-size:cover;"><!--<img src="images/rw_img.jpg" />--></a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><a href="#">杨芙清：为国奉献，我之所愿</a> </h3>
-                    </section>
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    <a href="#"><img src="images/yay_icon.jpg" /><span>燕园故事</span></a>
-                </dt>
-                <dd>
-                    <a href="#" style=" display:block; width:100%; height:100%;background:url(images/yw_img.jpg) no-repeat center;background-size:cover;"><!--<img src="images/yw_img.jpg" />--></a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><a href="#">杨芙清：为国奉献，我之所愿</a> </h3>
-                    </section>
-                </dd>
-            </dl>
-            <dl class="last">
-                <dt>
-                    <a href="#"><img src="images/xs_icon.jpg" /><span>北大校史</span></a>
-                </dt>
-                <dd>
-                    <a href="#" style=" display:block; width:100%; height:100%;background:url(images/xs_img.jpg) no-repeat center right; background-size:cover;"><!--<img src="images/xs_img.jpg" />--></a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><a href="#">杨芙清：为国奉献，我之所愿</a> </h3>
-                    </section>
-                </dd>
-            </dl>
-        </section>
-        <section class="ztw clear">
-            <dl>
-                <dt>
-                    <a href="#"><img src="images/zt_icon.jpg" /><span>专题网站</span></a>
-                </dt>
-                <dd>
-                    <ul id="ztw">
-                        <li>
-                            <a href="#"><img src="images/zt_img.jpg" /></a>
-                            <section class="cover">
-                            <p></p>
-                            <h3><a href="#">毕业专题网</a> </h3>
-                            </section>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/zt_img1.jpg" /></a>
-                            <section class="cover">
-                            <p></p>
-                            <h3><a href="#">迎新网</a> </h3>
-                            </section>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/zt_img2.jpg" /></a>
-                            <section class="cover">
-                            <p></p>
-                            <h3><a href="#">北大微电影</a> </h3>
-                            </section>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/zt_img3.jpg" /></a>
-                            <section class="cover">
-                            <p></p>
-                            <h3><a href="#">毕业专题网</a> </h3>
-                            </section>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/zt_img4.jpg" /></a>
-                            <section class="cover">
-                            <p></p>
-                            <h3><a href="#">毕业专题网</a> </h3>
-                            </section>
-                        </li>
+            <div class="main_left">
+                <div class="add">
+                    您现在所在的位置：<a href="#"> 首页</a> | 在校生
+                </div>
+                <div class="menu_tit">
+                    <h2 style="background:none; text-align:center; padding:0;">在校学生</h2>
+                </div>
+                <nav class="wap_left">
+                    <ul>
+                        <li class="active"><a href="#">校园服务</a> </li>
+                        <li><a href="#">新生专区</a> </li>
+                        <li><a href="#">学习资讯</a> </li>
+                        <li><a href="#">社团活动</a> </li>
+                        <li><a href="#">奖励资助</a> </li>
+                        <li><a href="#">合作交流</a> </li>
+                        <li><a href="#">常用链接</a> </li>
+                        <li><a href="#">毕业专区</a> </li>
                     </ul>
-                </dd>
-            </dl>
+                </nav>
+            </div>
+            <section class="artbanner">
+                <img src="images/banner_03.jpg" />
+            </section>
         </section>
-        <div class="major-list-outer">
-            <ul class="major-list">
-                <li class="major-item" id="dx"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item" id="rj"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item" id="jx"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item mg" id="gdz"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item" id="jsj"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item" id="kz"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item" id="jg"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-                <li class="major-item mg" id="sx"><a href="#"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
-            </ul>
-        </div>
-        <section class="fw_wap clear">
-            <ul id="fw_wap">
-                <li class="icon1">
-                    <a href="#"><img class="img" src="images/fw_img.jpg"> </a>
-                    <section class="cover">
-                        <p></p>
-                        <h3><span><img src="images/rc_icon.png" /> </span><a href="#">人才招聘</a> </h3>
-                    </section>
-                </li>
-                <li class="icon2">
-                    <a href="#"><img class="img" src="images/fw_img1.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/xf_icon.png" /> </span><a href="#">领导信箱</a> </h3>
-                    </section>
-                </li>
-                <li class="icon3">
-                    <a href="#"><img class="img" src="images/fw_img2.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/xn_icon.png" /></span><a href="#">虚拟校园</a> </h3>
-                    </section>
-                </li>
-                <li class="icon4">
-                    <a href="#"><img class="img" src="images/fw_img3.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/jz_icon.png" /> </span><a href="#">捐  &nbsp;&nbsp;    助</a> </h3>
-                    </section>
-                </li>
-                <li class="icon5">
-                    <a href="#"><img class="img" src="images/fw_img4.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/gk_icon.png" /> </span><a href="#">公 开 课</a> </h3>
-                    </section>
-                </li>
-                <li class="icon6">
-                    <a href="#"><img class="img" src="images/fw_img5.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/mh_icon.png" /> </span><a href="#">校内门户</a> </h3>
-                    </section>
-                </li>
-                <li class="icon7">
-                    <a href="#"><img class="img" src="images/fw_img6.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/lj_icon.png" /> </span><a href="#">常用链接</a> </h3>
-                    </section>
-                </li>
-                <li class="icon8">
-                    <a href="#"><img class="img" src="images/fw_img7.jpg"> </a>
-                    <section class="cover">
-                    <p></p>
-                    <h3><span><img src="images/xx_icon.png" /> </span><a href="#">服务信息</a> </h3>
-                    </section>
-                </li>
-            </ul>
+    </section>
+    <section class="mainbg">
+        <section class="mainWap">
+           <div class="sf_left">
+                <div class="box_list">
+                    <h2>校园服务</h2>
+                    <div class="txt">
+                        近年来，在“211工程”和“985工程”的支持下，北京大学进入了一个新的历史发展阶段，在学科建设、人才培养、师资队伍建设、教学科研等各方面都取得了显著成绩，为将北大建设成为世界一流大学奠定了坚实的基础。今天的北京大学已经成为国家培养高素质、创造性人才的摇篮、科学研究的前沿和知识创新的重要基地和国际交流的重要桥梁和窗口。
+                    </div>
+                    <dl>
+                        <dt><img src="images/lt_pic01.jpg" /> </dt>
+                        <dd>
+                            <ul class="xy_fw">
+                                <li><a href="#">校历</a> </li>
+                                <li><a href="#">邮件系统</a> </li>
+                                <li><a href="#">VPN系统</a> </li>
+                                <li class="li1"><a href="#">本科生成绩、课程表查询</a> </li>
+                                <li class="li2"><a href="#">研究生成绩、课程表查询</a> </li>
+                                <li><a href="#">借阅书籍查询</a> </li>
+                                <li><a href="#">校园网使用查询</a> </li>
+                                <li><a href="#">健身场馆及设施</a> </li>
+                                <li><a href="#">教室借用</a> </li>
+                                <li><a href="#">校医院</a> </li>
+                                <li><a href="#">心理咨询</a> </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+               <div class="box_list">
+                   <h2>学习资讯</h2>
+                   <div class="txt">
+                       北京大学进入了一个新的历史发展阶段，在学科建设、人才培养、师资队伍建设、教学科研等各方面都取得了显著成绩，为将北大建设成为世界一流大学奠定了坚实的基础。
+                   </div>
+                   <ul class="xue_zx">
+                       <li><a href="#">精品课程</a> </li>
+                       <li><a href="#">图书馆资源</a> </li>
+                       <li><a href="#">北大经济论坛</a> </li>
+                       <li><a href="#">社会学视野</a> </li>
+                       <li><a href="#">哲学在线</a> </li>
+                       <li><a href="#">通识教育</a> </li>
+                       <li><a href="#">社会实践</a> </li>
+                       <li class="li5"><a href="#">大学生创新性实验计划</a> </li>
+                       <li><a href="#">社课外学术活动交流</a> </li>
+                       <li><a href="#">暑期学校</a> </li>
+                       <li><a href="#">视频公开课</a> </li>
+                   </ul>
+               </div>
+               <div class="box_list">
+                   <h2>奖励资助</h2>
+                   <div class="txt">
+                       北京大学进入了一个新的历史发展阶段，在学科建设、人才培养、师资队伍建设、教学科研等各方面都取得了显著成绩，为将北大建设成为世界一流大学奠定了坚实的基础。
+                   </div>
+                   <ul class="xue_zx">
+                       <li><a href="#">学生奖励</a> </li>
+                       <li><a href="#">学生资助</a> </li>
+                       <li class="li5"><a href="#">家庭经济困难学生培养</a> </li>
+                   </ul>
+               </div>
+               <div class="box_list">
+                   <h2>常用链接</h2>
+                   <ul class="xy_fw">
+                       <li><a href="#">北大餐饮</a> </li>
+                       <li><a href="#">公寓服务</a> </li>
+                       <li><a href="#">水电暖服务</a> </li>
+                       <li><a href="#">校园购物</a> </li>
+                       <li><a href="#">通信通讯</a> </li>
+                       <li><a href="#">便民服务</a> </li>
+                       <li><a href="#">校园卡服务</a> </li>
+                       <li class="li3"><a href="#">校园网及无线网络使用指南</a> </li>
+                       <li class="li3"><a href="#">校医院就医、报销指南 </a> </li>
+                       <li><a href="#">失物招领</a> </li>
+                       <li><a href="#">网络电视</a> </li>
+                   </ul>
+               </div>
+               <div class="box_list">
+                   <h2>毕业专区</h2>
+                   <ul class="xy_fw">
+                       <li><a href="#">职业测评</a> </li>
+                       <li><a href="#">就业指导</a> </li>
+                       <li><a href="#">毕业生签约指导</a> </li>
+                       <li class="li4"><a href="#">学实习、招聘、宣讲会信息 </a> </li>
+                       <li class="li4 li5"><a href="#">毕业生办理成绩单等学籍材料的程序</a> </li>
+                       <li><a href="#">论文提交</a> </li>
+                       <li><a href="#">毕业季活动</a> </li>
+                   </ul>
+               </div>
+           </div>
+           <div class="sf_right">
+                <div class="rig_list">
+                    <div class="img">
+                        <img src="images/lt_pic02.jpg" />
+                        <h2>新生专区</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#">北大校史</a> </li>
+                        <li><a href="#">北大校友</a> </li>
+                        <li><a href="#">校园地图</a> </li>
+                        <li><a href="#">入学导航</a> </li>
+                        <li><a href="#">校军训</a> </li>
+                        <li><a href="#">迎新网</a> </li>
+                    </ul>
+                </div>
+               <div class="rig_list">
+                   <div class="img">
+                       <img src="images/lt_pic03.jpg" />
+                       <h2>社团活动</h2>
+                   </div>
+                   <ul class="st_hd">
+                       <li><a href="#">学校学生会</a> </li>
+                       <li><a href="#">北京大学学生社团</a> </li>
+                       <li><a href="#">校内社团管理规定</a> </li>
+                       <li><a href="#">活动场地申请</a> </li>
+                       <li><a href="#">教室借用手续</a> </li>
+                       <li><a href="#">视频资料播放审批表</a> </li>
+                       <li class="w100"><a href="#">校内新闻报道、校内标语宣传品申请表 </a> </li>
+                       <li><a href="#">社团活动资讯 </a> </li>
+                   </ul>
+               </div>
+               <div class="rig_list">
+                   <div class="img">
+                       <img src="images/lt_pic04.jpg" />
+                       <h2>合作交流</h2>
+                   </div>
+                   <ul class="st_hd">
+                       <li><a href="#">出国成绩单办理</a> </li>
+                       <li><a href="#">人出国政审</a> </li>
+                       <li class="w100"><a href="#">公派出国、赴港澳台交流项目申请表 </a> </li>
+                       <li class="w100"><a href="#">往来港澳台地区申请表 </a> </li>
+                       <li><a href="#">港澳台地区交流信息</a> </li>
+                       <li><a href="#">国际交流信息</a> </li>
+                       <li><a href="#">留学生事务 </a> </li>
+                   </ul>
+               </div>
+           </div>
         </section>
     </section>
 </article >
@@ -630,21 +530,7 @@
         $("#mbtn").click(function(){
             $("#navm").toggle(300);
         });
-        /*$("#slider").responsiveSlides({
-            auto: true,
-            pager: false,
-            nav: true,
-            speed: 500,
-            // 对应外层div的class : slide_container
-            namespace: "slide"
-        });*/
     });
 </script>
-<!--banner效果JS-->
-<script src = "js/jquery.easing-1.3.js"></script>
-<script src = "js/jquery.iosslider.js"></script>
-<script type="text/javascript" src="js/banner.js"></script>
-<script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/fzxg.js"></script>
 </body>
 </html>
